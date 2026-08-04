@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SMART BOARDING</title>
+
+    <link rel="stylesheet" href="../../assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- =========================
+         First-Time Notice Popup
+    ========================== -->
+
+    <div id="popupOverlay" class="popup-overlay">
+
+        <div class="popup">
+
+            <div class="popup-icon">
+                ✈️
+            </div>
+
+            <h2 class="popup-title">
+                开始前请阅读
+            </h2>
+
+            <p class="popup-text">
+
+                本服务仅供参考。
+                <br><br>
+
+                ⚠️ 携带规定及
+                审批要求可能因
+                航空公司政策而有所不同。
+
+                <br><br>
+
+                <strong>
+
+                如需最准确的信息，
+                请咨询您的航空公司。
+
+                </strong>
+
+            </p>
+
+            <button id="popupClose"
+                    class="popup-button">
+
+                开始
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="container">
+
+
+
+
+        <!-- =========================
+             Language
+        ========================== -->
+
+        <div class="language-selector">
+
+            <button
+                class="language-button"
+                id="languageButton">
+
+                🌐 语言
+
+            </button>
+
+            <div
+                class="language-dropdown"
+                id="languageMenu">
+
+            <a href="#" data-lang="ko">한국어</a>
+            <a href="#" data-lang="en">English</a>
+            <a href="#" data-lang="jp">日本語</a>
+            <a href="#" data-lang="cn">中文</a>
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- =========================
+             Header
+        ========================== -->
+
+        <header class="logo-area">
+
+            <h1>
+
+                SMART BOARDING
+
+            </h1>
+
+            <p>
+
+                轻松准备登机
+
+                <span class="plane">
+
+                    ✈️
+
+                </span>
+
+            </p>
+
+        </header>
+
+
+
+
+        <!-- =========================
+             Main Message
+        ========================== -->
+
+        <section class="message">
+
+            <p>
+
+                准备好开启旅程了吗？
+
+                <br>
+
+                让我们一起做好登机准备。
+
+            </p>
+
+        </section>
+
+                <!-- =========================
+             Main Menu
+        ========================== -->
+
+        <section class="button-group">
+
+            <a
+                href="carry-on.html"
+                class="main-button">
+
+                <span class="menu-icon">
+
+                    ✈️
+
+                </span>
+
+                <span class="menu-title">
+
+                    随身行李
+
+                </span>
+
+
+            </a>
+
+
+
+            <a
+                href="checked.html"
+                class="main-button">
+
+                <span class="menu-icon">
+
+                    🧳
+
+                </span>
+
+                <span class="menu-title">
+
+                    托运行李
+
+                </span>
+
+
+            </a>
+
+        </section>
+
+
+
+        <!-- =========================
+             Frequently Used
+        ========================== -->
+
+        <section class="quick-section">
+
+            <h2 class="section-title">
+
+                热门信息
+
+            </h2>
+
+<div class="quick-grid">
+
+    <!-- Liquids -->
+    <a href="liquids.html?from=index" class="quick-card">
+
+        <div class="quick-icon">
+            💧
+        </div>
+
+        <div class="quick-title">
+            液体
+        </div>
+
+
+    </a>
+
+
+    <!-- Lithium Batteries -->
+    <a href="battery.html" class="quick-card">
+
+        <div class="quick-icon">
+            🔋
+        </div>
+
+        <div class="quick-title">
+            锂电池
+        </div>
+
+
+    </a>
+
+
+    <!-- Cordless Hair Iron -->
+    <a href="hairiron.html" class="quick-card">
+
+        <div class="quick-icon">
+            💇
+        </div>
+
+        <div class="quick-title">
+            无线美发器
+        </div>
+
+
+    </a>
+
+
+    <!-- Airline Approval Required -->
+    <a href="airline.html" class="quick-card">
+
+        <div class="quick-icon">
+            ⚠️
+        </div>
+
+        <div class="quick-title">
+            需经航空公司批准
+        </div>
+
+
+    </a>
+
+
+    <!-- Checked → Carry-on -->
+    <a href="transfer.html" class="quick-card">
+
+        <div class="quick-icon">
+            🔄
+        </div>
+
+        <div class="quick-title">
+            托运 → 随身
+        </div>
+
+
+    </a>
+
+
+    <!-- FAQ -->
+    <a href="faq.html" class="quick-card">
+
+        <div class="quick-icon">
+            ❓
+        </div>
+
+        <div class="quick-title">
+            常见问题
+        </div>
+
+
+    </a>
+
+</div>
+
+        </section>
+
+                <!-- =========================
+             Notice
+        ========================== -->
+
+        <section class="notice-card">
+
+            <h3>
+
+                📌 注意事项
+
+            </h3>
+
+            <p>
+
+                本服务仅供参考。
+
+                <br><br>
+
+                携带规定及
+                审批要求可能因
+                航空公司政策而有所不同。
+
+                <br><br>
+
+                <strong>
+
+                    如需最准确的信息，
+                    请咨询您的航空公司。
+
+                </strong>
+
+            </p>
+
+        </section>
+
+
+
+
+
+        <!-- =========================
+             Footer
+        ========================== -->
+
+        <footer class="footer-logo">
+
+            <img
+
+                src="../../assets/images/logo/logo.png"
+
+                alt="韩国机场安保 大邱机场分公司">
+
+        </footer>
+
+    </div>
+
+
+
+
+
+    <!-- =========================
+         Script
+    ========================== -->
+
+    <script src="../../assets/js/language.js"></script>
+
+    <script>
+
+const popup = document.getElementById("popupOverlay");
+const popupClose = document.getElementById("popupClose");
+
+// 1 hour
+const ONE_HOUR = 60 * 60 * 1000;
+
+// Last confirmation time
+const noticeTime = localStorage.getItem("smartNoticeTime");
+
+// Hide popup if confirmed within the last hour
+if (noticeTime && (Date.now() - Number(noticeTime) < ONE_HOUR)) {
+    popup.style.display = "none";
+}
+
+// Confirmation button
+popupClose.addEventListener("click", () => {
+
+    popup.classList.add("hide");
+
+    // Hide completely after animation
+    setTimeout(() => {
+        popup.style.display = "none";
+    }, 300);
+
+    // Save current time
+    localStorage.setItem("smartNoticeTime", Date.now());
+
+});
+
+// =========================
+// Language Selector
+// =========================
+
+const languageLinks = document.querySelectorAll("#languageMenu a");
+
+languageLinks.forEach(link => {
+
+    link.addEventListener("click", function(e){
+
+        e.preventDefault();
+
+        const lang = this.dataset.lang;
+
+        // Save selected language
+        localStorage.setItem("smartLanguage", lang);
+
+        // Navigate to the same page in the selected language
+        const currentPage = window.location.pathname.split("/").pop();
+
+        location.href = `../${lang}/${currentPage}`;
+
+    });
+
+});
+
+
+
+    </script>
+
+</body>
+
+</html>

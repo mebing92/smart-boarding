@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMART BOARDING</title>
+
+<script>
+
+(function () {
+
+    // 저장된 언어가 있으면 우선 사용 (개발단계에서는 저장기능 끄기)
+    let lang = localStorage.getItem("smartLanguage");
+
+    // 없으면 휴대폰 언어 사용
+    if (!lang) {
+
+        const browserLang = navigator.language.toLowerCase();
+
+        if (browserLang.startsWith("ko")) {
+
+            lang = "ko";
+
+        } else if (browserLang.startsWith("ja")) {
+
+            lang = "jp";
+
+        } else if (browserLang.startsWith("zh")) {
+
+            lang = "cn";
+
+        } else {
+
+            lang = "en";
+
+        }
+
+    }
+
+    location.replace(`${lang}/index.html`);
+
+})();
+
+</script>
+
+</head>
+
+<body>
+
+</body>
+</html>

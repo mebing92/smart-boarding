@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SMART BOARDING</title>
+
+    <script>
+
+    (function () {
+
+        // 저장된 언어(향후 확장용)
+        let lang = null;
+
+        // 브라우저 언어 자동 감지
+        if (!lang) {
+
+            const browserLang = navigator.language.toLowerCase();
+
+            if (browserLang.startsWith("ko")) {
+
+                lang = "ko";
+
+            } else if (browserLang.startsWith("ja")) {
+
+                lang = "jp";
+
+            } else if (browserLang.startsWith("zh")) {
+
+                lang = "cn";
+
+            } else {
+
+                lang = "en";
+
+            }
+
+        }
+
+        // 해당 언어 페이지로 이동
+        location.replace(`${lang}/index.html`);
+
+    })();
+
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

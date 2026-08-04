@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SMART BOARDING</title>
+
+    <link rel="stylesheet" href="../../assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- =========================
+         최초 이용안내 Popup
+    ========================== -->
+
+    <div id="popupOverlay" class="popup-overlay">
+
+        <div class="popup">
+
+            <div class="popup-icon">
+                ✈️
+            </div>
+
+            <h2 class="popup-title">
+                이용 전 안내
+            </h2>
+
+            <p class="popup-text">
+
+                본 서비스는
+                참고용 안내입니다.
+                <br><br>
+
+               ⚠️ 운송 가능 여부 및
+               승인 기준은 이용하시는
+               항공사의 정책에 따라 달라질 수 있습니다.
+
+                <br><br>
+
+                <strong>
+
+                자세한 사항은
+                이용하시는 항공사에
+                확인하시기 바랍니다.
+
+                </strong>
+
+            </p>
+
+            <button id="popupClose"
+                    class="popup-button">
+
+                확인하고 시작하기
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="container">
+
+
+
+
+        <!-- =========================
+             Language
+        ========================== -->
+
+        <div class="language-selector">
+
+            <button
+                class="language-button"
+                id="languageButton">
+
+                🌐 Language
+
+            </button>
+
+            <div
+                class="language-dropdown"
+                id="languageMenu">
+
+            <a href="#" data-lang="ko">한국어</a>
+            <a href="#" data-lang="en">English</a>
+            <a href="#" data-lang="jp">日本語</a>
+            <a href="#" data-lang="cn">中文</a>
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- =========================
+             Header
+        ========================== -->
+
+        <header class="logo-area">
+
+            <h1>
+
+                SMART BOARDING
+
+            </h1>
+
+            <p>
+
+                스마트 탑승 준비
+
+                <span class="plane">
+
+                    ✈️
+
+                </span>
+
+            </p>
+
+        </header>
+
+
+
+
+        <!-- =========================
+             Main Message
+        ========================== -->
+
+        <section class="message">
+
+            <p>
+
+                설레는 여행,
+
+                <br>
+
+                어떻게 준비하면 좋을까?
+
+                
+
+            </p>
+
+        </section>
+
+
+
+
+
+        <!-- =========================
+             Main Menu
+        ========================== -->
+
+        <section class="button-group">
+
+            <a
+                href="carry-on.html"
+                class="main-button">
+
+                <span class="menu-icon">
+
+                    ✈️
+
+                </span>
+
+                <span class="menu-title">
+
+                    기내반입
+
+                </span>
+
+
+            </a>
+
+
+
+            <a
+                href="checked.html"
+                class="main-button">
+
+                <span class="menu-icon">
+
+                    🧳
+
+                </span>
+
+                <span class="menu-title">
+
+                    위탁수하물
+
+                </span>
+
+
+            </a>
+
+        </section>
+
+        <!-- =========================
+             Frequently Used
+        ========================== -->
+
+        <section class="quick-section">
+
+            <h2 class="section-title">
+
+                자주 찾는 안내
+
+            </h2>
+
+<div class="quick-grid">
+
+    <!-- 액체류 -->
+    <a href="liquids.html?from=index" class="quick-card">
+
+        <div class="quick-icon">
+            💧
+        </div>
+
+        <div class="quick-title">
+            액체류
+        </div>
+
+
+    </a>
+
+
+    <!-- 보조배터리 -->
+    <a href="battery.html" class="quick-card">
+
+        <div class="quick-icon">
+            🔋
+        </div>
+
+        <div class="quick-title">
+            보조배터리
+        </div>
+
+
+    </a>
+
+
+    <!-- 무선고데기 -->
+    <a href="hairiron.html" class="quick-card">
+
+        <div class="quick-icon">
+            💇
+        </div>
+
+        <div class="quick-title">
+            무선고데기
+        </div>
+
+
+    </a>
+
+
+    <!-- 항공사 확인 품목 -->
+    <a href="airline.html" class="quick-card">
+
+        <div class="quick-icon">
+            ⚠️
+        </div>
+
+        <div class="quick-title">
+            항공사 확인 품목
+        </div>
+
+
+    </a>
+
+
+    <!-- 위탁 → 기내 -->
+    <a href="transfer.html" class="quick-card">
+
+        <div class="quick-icon">
+            🔄
+        </div>
+
+        <div class="quick-title">
+            위탁 → 기내
+        </div>
+
+
+    </a>
+
+
+    <!-- FAQ -->
+    <a href="faq.html" class="quick-card">
+
+        <div class="quick-icon">
+            ❓
+        </div>
+
+        <div class="quick-title">
+            자주 묻는 질문
+        </div>
+
+
+    </a>
+
+</div>
+
+        </section>
+
+
+
+
+
+        <!-- =========================
+             Notice
+        ========================== -->
+
+        <section class="notice-card">
+
+            <h3>
+
+                📌 이용 시 참고하세요
+
+            </h3>
+
+            <p>
+
+                본 서비스는 참고용 안내입니다.
+
+                <br><br>
+
+                물품의 운송 가능 여부 및 승인 기준은
+                이용하시는 항공사의 정책에 따라
+                달라질 수 있습니다.
+
+                <br><br>
+
+                <strong>
+
+                    자세한 사항은
+                    이용하시는 항공사에
+                    문의하시기 바랍니다.
+
+                </strong>
+
+            </p>
+
+        </section>
+
+
+
+
+
+        <!-- =========================
+             Footer
+        ========================== -->
+
+        <footer class="footer-logo">
+
+            <img
+
+                src="../../assets/images/logo/logo.png"
+
+                alt="한국공항보안 대구공항지사">
+
+        </footer>
+
+    </div>
+
+
+
+
+
+    <!-- =========================
+         Script
+    ========================== -->
+
+    <script src="../../assets/js/language.js"></script>
+
+    <script>
+
+const popup = document.getElementById("popupOverlay");
+const popupClose = document.getElementById("popupClose");
+
+// 1시간
+const ONE_HOUR = 60 * 60 * 1000;
+
+// 마지막 확인 시간
+const noticeTime = localStorage.getItem("smartNoticeTime");
+
+// 1시간 이내라면 팝업 숨김
+if (noticeTime && (Date.now() - Number(noticeTime) < ONE_HOUR)) {
+    popup.style.display = "none";
+}
+
+// 확인 버튼
+popupClose.addEventListener("click", () => {
+
+    popup.classList.add("hide");
+
+    // 애니메이션이 끝난 후 완전히 숨김
+    setTimeout(() => {
+        popup.style.display = "none";
+    }, 300);
+
+    // 현재 시간을 저장
+    localStorage.setItem("smartNoticeTime", Date.now());
+
+});
+
+// =========================
+// Language Selector
+// =========================
+
+const languageLinks = document.querySelectorAll("#languageMenu a");
+
+languageLinks.forEach(link => {
+
+    link.addEventListener("click", function(e){
+
+        e.preventDefault();
+
+        const lang = this.dataset.lang;
+
+        // 선택한 언어 저장
+        localStorage.setItem("smartLanguage", lang);
+
+        // 같은 페이지를 해당 언어 폴더로 이동
+        const currentPage = window.location.pathname.split("/").pop();
+
+        location.href = `../${lang}/${currentPage}`;
+
+    });
+
+});
+
+
+
+    </script>
+
+</body>
+
+</html>
