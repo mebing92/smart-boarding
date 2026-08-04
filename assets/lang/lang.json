@@ -1,0 +1,45 @@
+{
+  "ko": {
+    "smart_boarding": "SMART BOARDING",
+    "main_title": "스마트 탑승 준비",
+    "main_message": "가져갈 수 없는 나의 물건,\n어떤 방법이 있을까요?",
+
+    "carry_on": "기내반입 제한물품",
+    "checked": "위탁수하물 제한물품",
+
+    "back": "↩ 돌아가기"
+  },
+
+  "en": {
+    "smart_boarding": "SMART BOARDING",
+    "main_title": "Smart Boarding",
+    "main_message": "What should I do\nwith restricted items?",
+
+    "carry_on": "Carry-on Restricted Items",
+    "checked": "Checked Baggage Restricted Items",
+
+    "back": "↩ Back"
+  },
+
+  "ja": {
+    "smart_boarding": "SMART BOARDING",
+    "main_title": "スマート搭乗準備",
+    "main_message": "持ち込めない荷物は\nどうすればいいですか？",
+
+    "carry_on": "機内持込制限品",
+    "checked": "受託手荷物制限品",
+
+    "back": "↩ 戻る"
+  },
+
+  "zh": {
+    "smart_boarding": "智慧登机准备",
+    "main_title": "智慧登机准备",
+    "main_message": "无法携带的物品\n该怎么办？",
+
+    "carry_on": "随身携带限制物品",
+    "checked": "托运行李限制物品",
+
+    "back": "↩ 返回"
+  }
+}
